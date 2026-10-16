@@ -1,0 +1,12 @@
+fastapi==0.115.*
+uvicorn[standard]
+pydantic-settings
+faiss-cpu
+sentence-transformers
+rank-bm25
+redis
+fakeredis
+anthropic
+numpy
+httpx
+pytest

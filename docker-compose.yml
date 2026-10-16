@@ -1,0 +1,15 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      NEXUS_REDIS_URL: redis://redis:6379/0
+      NEXUS_ANTHROPIC_API_KEY: ${NEXUS_ANTHROPIC_API_KEY:-}
+      NEXUS_API_KEY: ${NEXUS_API_KEY:-}
+    volumes: ["nexus-data:/data"]
+    depends_on: [redis]
+volumes:
+  nexus-data:

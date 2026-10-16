@@ -1,0 +1,40 @@
+{"query": "how do I add query parameters with default values", "doc_id": "tutorial/query-params.md"}
+{"query": "what is the difference between path and query parameters", "doc_id": "tutorial/path-params.md"}
+{"query": "how to declare a request body with pydantic", "doc_id": "tutorial/body.md"}
+{"query": "returning a custom status code from an endpoint", "doc_id": "tutorial/response-status-code.md"}
+{"query": "dependency injection with Depends", "doc_id": "tutorial/dependencies/index.md"}
+{"query": "allow cross origin requests from frontend domains", "doc_id": "tutorial/cors.md"}
+{"query": "intercepting requests before processing and modifying responses", "doc_id": "tutorial/middleware.md"}
+{"query": "execute long running operations after sending HTTP response to client", "doc_id": "tutorial/background-tasks.md"}
+{"query": "authenticating users with username and password security", "doc_id": "tutorial/security/first-steps.md"}
+{"query": "create json web tokens with expiration for authentication", "doc_id": "tutorial/security/oauth2-jwt.md"}
+{"query": "integrating relational databases using SQLAlchemy ORM and sessions", "doc_id": "tutorial/sql-databases.md"}
+{"query": "serving assets like CSS JavaScript and images directly", "doc_id": "tutorial/static-files.md"}
+{"query": "raising HTTPException and customizing error responses", "doc_id": "tutorial/handling-errors.md"}
+{"query": "handling binary file uploads with UploadFile instead of bytes", "doc_id": "tutorial/request-files.md"}
+{"query": "receiving html form fields submitted in request", "doc_id": "tutorial/request-forms.md"}
+{"query": "reading request headers with Header parameter", "doc_id": "tutorial/header-params.md"}
+{"query": "extracting client cookies with Cookie parameter", "doc_id": "tutorial/cookie-params.md"}
+{"query": "filtering and validating output data schema with response_model", "doc_id": "tutorial/response-model.md"}
+{"query": "defining deeply nested structures with lists of Pydantic models", "doc_id": "tutorial/body-nested-models.md"}
+{"query": "adding validation constraints and metadata to model attributes with Field", "doc_id": "tutorial/body-fields.md"}
+{"query": "hierarchical dependencies tree where a dependency depends on another", "doc_id": "tutorial/dependencies/sub-dependencies.md"}
+{"query": "resource cleanup and teardown in dependencies with yield statement", "doc_id": "tutorial/dependencies/dependencies-with-yield.md"}
+{"query": "using callable class instances as dependencies with __call__", "doc_id": "tutorial/dependencies/classes-as-dependencies.md"}
+{"query": "applying security or validation to all routes in entire application", "doc_id": "tutorial/dependencies/global-dependencies.md"}
+{"query": "validating integer parameters with greater than and less than conditions", "doc_id": "tutorial/path-params-numeric-validations.md"}
+{"query": "regex pattern matching and string length limits with Query", "doc_id": "tutorial/query-params-str-validations.md"}
+{"query": "running python debugger inside visual studio code for fastapi", "doc_id": "tutorial/debugging.md"}
+{"query": "writing automated tests using pytest and TestClient", "doc_id": "tutorial/testing.md"}
+{"query": "customizing OpenAPI docs title description version and tags", "doc_id": "tutorial/metadata.md"}
+{"query": "converting complex objects like datetimes or custom classes to JSON compatible data", "doc_id": "tutorial/encoder.md"}
+{"query": "bidirectional real-time full duplex communication between server and browser", "doc_id": "advanced/websockets.md"}
+{"query": "returning raw HTML XML or plain text instead of JSON format", "doc_id": "advanced/custom-response.md"}
+{"query": "mounting independent WSGI or ASGI sub applications under a prefix path", "doc_id": "advanced/sub-applications.md"}
+{"query": "defining startup and shutdown event handlers or lifespan context managers", "doc_id": "advanced/events.md"}
+{"query": "managing environment variables and configuration with pydantic-settings", "doc_id": "advanced/settings.md"}
+{"query": "rendering dynamic HTML web pages with Jinja2Templates engine", "doc_id": "advanced/templates.md"}
+{"query": "asynchronous test client using httpx AsyncClient with pytest async", "doc_id": "advanced/async-tests.md"}
+{"query": "handling root_path and forwarded headers when running behind reverse proxy like Nginx or Traefik", "doc_id": "advanced/behind-a-proxy.md"}
+{"query": "using standard library dataclasses instead of Pydantic models for request bodies", "doc_id": "advanced/dataclasses.md"}
+{"query": "implementing custom ASGI middleware to measure request processing duration", "doc_id": "advanced/middleware.md"}
